@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #3a5168;
+}
+
+.contain {
+  display: flex;
+}
+
+.box1 {
+  width: 25px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 5px;
+  animation-name: anim;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+.box1 {
+  width: 25px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 5px;
+  animation-name: anim;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.box2 {
+  width: 25px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 5px;
+  animation-name: anim2;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.box3 {
+  width: 25px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 5px;
+  animation-name: anim3;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.box4 {
+  width: 25px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 5px;
+  animation-name: anim4;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.box5 {
+  width: 25px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 5px;
+  animation-name: anim5;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes anim {
+  20%{
+    transform: scaleY(3);
+  }
+  40%{
+    transform: scaleY(1);
+  }
+  60%{
+    transform: scaleY(1);
+  }
+  80%{
+    transform: scaleY(1);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+@keyframes anim2 {
+  20%{
+    transform: scaleY(1);
+  }
+  40%{
+    transform: scaleY(3);
+  }
+  60%{
+    transform: scaleY(1);
+  }
+  80%{
+    transform: scaleY(1);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+@keyframes anim3 {
+  20%{
+    transform: scaleY(1);
+  }
+  40%{
+    transform: scaleY(1);
+  }
+  60%{
+    transform: scaleY(3);
+  }
+  80%{
+    transform: scaleY(1);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+@keyframes anim4 {
+  20%{
+    transform: scaleY(1);
+  }
+  40%{
+    transform: scaleY(1);
+  }
+  60%{
+    transform: scaleY(1);
+  }
+  80%{
+    transform: scaleY(3);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+@keyframes anim5 {
+  20%{
+    transform: scaleY(1);
+  }
+  40%{
+    transform: scaleY(1);
+  }
+  60%{
+    transform: scaleY(1);
+  }
+  80%{
+    transform: scaleY(1);
+  }
+  100%{
+    transform: scaleY(3);
+  }
+}
